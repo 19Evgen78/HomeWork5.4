@@ -8,7 +8,7 @@ public class Main {
         } catch (IOException | IllegalArgumentException e){
         System.out.println("Произошла ошобка :" + e);
     }catch (Exception e){
-            System.out.println("Ошибка" e);
+            System.out.println("Ошибка :" + e);
         }
 
     }
